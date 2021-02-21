@@ -10,6 +10,10 @@
     float: none;
 }
 
+#navbar ul li:last-child {
+    margin-bottom: 12px;
+}
+
 #navbar ul li a {
     padding: 5px;
 }
@@ -18,9 +22,15 @@
 
 /* Home Info */
 #home-info {
-    height: 485px;
+    height: 420px;
+}
+
+#home-info .info__img {
+    display: none;
 }
 
 #home-info .info__content {
-    padding: 25px 15px;
+    float: none;
+    width: auto;
 }
+
