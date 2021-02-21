@@ -39,14 +39,17 @@
 
 /* About Info */
 #about-info {
-    height: 800px;
+    height: 600px;
 }
 
-#about-info .info-right,
+#about-info .info-right {
+    display: none;
+}
+
 #about-info .info-left {
     float: none;
     width: auto;
-    min-height: 50%;
+    min-height: 100%;
     border: none;
 }
 
@@ -56,9 +59,22 @@
 
 /* Testimonials */
 #testimonials {
+    height: 100%;
     /* 'height: (number of .testimonial) * 100 [vh]' works*/
     
     /* 'height: auto;' works (auto: the height of its children element) */
 
-    height: 100%;
+    padding: 20px 5px;
+}
+
+@media (max-width: 420px) {
+    /* Showcase */
+    #showcase {
+        height: 500px;
+    }
+
+    #showcase .showcase__content {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
 }
