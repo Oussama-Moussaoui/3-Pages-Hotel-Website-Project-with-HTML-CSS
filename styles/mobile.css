@@ -1,6 +1,6 @@
 /* Utility Classes */
 .box {
-    float: none; /* Or 'clear:both' instead*/
+    float: none;
     width: auto;
 }
 
@@ -35,5 +35,22 @@
 #home-info .info__content {
     float: none;
     width: auto;
+}
+
+/* About Info */
+#about-info {
+    height: 800px;
+}
+
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: auto;
+    min-height: 50%;
+    border: none;
+}
+
+#about-info .info-left .large-heading {
+    text-align: center;
 }
 
