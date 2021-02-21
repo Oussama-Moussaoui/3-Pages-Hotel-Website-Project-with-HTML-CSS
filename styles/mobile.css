@@ -54,3 +54,11 @@
     text-align: center;
 }
 
+/* Testimonials */
+#testimonials {
+    /* 'height: (number of .testimonial) * 100 [vh]' works*/
+    
+    /* 'height: auto;' works (auto: the height of its children element) */
+
+    height: 100%;
+}

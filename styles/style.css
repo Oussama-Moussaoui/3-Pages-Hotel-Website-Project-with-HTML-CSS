@@ -94,7 +94,7 @@ p {
 
 .large-heading {
     font-size: 60px;
-    line-height: 1.2em;
+    line-height: 1.2;
 }
 
 .clr {
@@ -225,7 +225,7 @@ p {
 #testimonials h2 {
     font-size: 40px;
     color: #fff;
-    padding-bottom: 40px;
+    line-height: 1;
 }
 
 #testimonials .testimonial {
