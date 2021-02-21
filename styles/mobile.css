@@ -1,0 +1,26 @@
+/* Navbar */
+
+#navbar #logo {
+    float: none;
+    text-align: center;
+}
+
+/* if you use only '#navbar li' it will not overwrite the original style, because in style.css you wrote '#navbar ul li' which is more specific and css will give it the importance */
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+}
+
+/* Showcase */
+
+/* Home Info */
+#home-info {
+    height: 485px;
+}
+
+#home-info .info__content {
+    padding: 25px 15px;
+}
