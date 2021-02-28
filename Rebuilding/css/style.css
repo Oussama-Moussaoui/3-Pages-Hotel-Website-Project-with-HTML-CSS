@@ -106,7 +106,6 @@ p {
 .box {
     flex: 1;
     padding: 40px;
-    min-height: 260px;
     display: flex;
     flex-direction: column;
     text-align: center;
