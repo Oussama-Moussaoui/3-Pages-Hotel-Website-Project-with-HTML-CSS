@@ -17,7 +17,13 @@
 
 /* Navbar for mobile screens */
 @media (max-width: 500px) {
-    #navbar {
-        
+    #navbar .navbar-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .navbar-content #logo {
+        text-align: center;
+        margin: 10px auto;
     }
 }
