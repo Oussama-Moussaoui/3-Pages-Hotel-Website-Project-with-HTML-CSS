@@ -189,6 +189,30 @@ p {
     display: flex;
 }
 
+/* About Info */
+#about-info {
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+#about-info::before {
+    content: '';
+    z-index: -1;
+    background: url('../img/pexels-pixabay-258154.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#about-info .about-content {
+    color: #fff;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
 /* Main Footer */
 #main-footer {
     color: #fff;
