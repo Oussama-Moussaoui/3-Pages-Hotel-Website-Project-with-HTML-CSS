@@ -1,0 +1,23 @@
+/* History Area */
+#history {
+    display: flex;
+    height: auto;
+}
+
+#history .history-img {
+    flex: 0;
+    display: none;
+}
+
+/* Features and Contact Info */
+#features,
+#contact-info {
+    display: block;
+}
+
+/* Navbar for mobile screens */
+@media (max-width: 500px) {
+    #navbar {
+        
+    }
+}
