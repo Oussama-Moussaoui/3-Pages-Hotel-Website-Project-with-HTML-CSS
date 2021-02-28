@@ -1,0 +1,97 @@
+/* Root */
+:root {
+    --primary-clr: #ffc965; /*#E3B665  lighter   #C9A665 heavy*/
+    --light-gold: #E3B665;
+    --heavy-gold: #C9A665;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.l-heading {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 1.3rem;
+}
+
+.primary-text {
+    color: var(--primary-clr);
+}
+
+.btn {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.6s background ease;
+}
+
+.btn:hover {
+    background: var(--light-gold);
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #111;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-darkest {
+    background-color: #111;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #fff;
+    color: #333;
+}
+
+.bg-primary {
+    background-color: var(--primary-clr);
+    color: #333;
+}
+
+.box {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Navbar*/
