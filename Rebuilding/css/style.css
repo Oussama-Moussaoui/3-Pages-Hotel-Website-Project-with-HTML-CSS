@@ -244,6 +244,57 @@ p {
     margin-bottom: 20px;
 }
 
+/* Contact form */
+#contact-form {
+    padding: 3rem 1rem;
+}
+
+#contact-form .l-heading,
+#contact-form p {
+    text-align: center;
+}
+
+#contact-form form .form-group {
+    margin-bottom: 1rem;
+}
+
+#contact-form form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form form .form-group label.required::after {
+    content: ' *';
+    color: #ff0000;
+}
+
+#contact-form form .form-group input,
+#contact-form form .form-group textarea {
+    width: 100%;
+    border: 1.5px #ddd solid;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#contact-form form .form-group textarea {
+    height: 150px;
+    font-size: 1.1rem;
+}
+
+#contact-form form .form-group input:focus,
+#contact-form form .form-group textarea:focus {
+    outline-color: var(--light-gold);
+}
+
+#contact-form form .btn {
+    display: block;
+    margin: auto;
+}
+
+#contact-form form .btn:focus {
+    outline: none;
+}
+
 /* Main Footer */
 #main-footer {
     color: #fff;
