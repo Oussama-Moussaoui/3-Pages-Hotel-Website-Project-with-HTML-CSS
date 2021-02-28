@@ -37,10 +37,12 @@ ul, li {
 .l-heading {
     font-size: 4rem;
     line-height: 1.2;
+    margin-bottom: 1rem;
 }
 
 .lead {
     font-size: 1.3rem;
+    margin: 1rem 0;
 }
 
 .primary-text {
@@ -100,7 +102,7 @@ ul, li {
     color: #fff;
 }
 
-#navbar .container {
+#navbar .navbar-content {
     display: flex;
     justify-content: space-between;
 }
@@ -112,14 +114,35 @@ ul, li {
 #navbar ul li a {
     display: inline-block;
     padding: 1.2rem 1.5rem;
+    transition: background 0.4s ease, border-bottom 0.4s ease;
 }
 
 #navbar ul li a.current,
 #navbar ul li a:hover {
     background: #444;
-    border-bottom: var(--primary-clr) 2px solid;
+    border-bottom: var(--primary-clr) 1px solid;
 }
 
 #navbar #logo {
     margin: auto 0;
+}
+
+/* Showcase */
+#showcase {
+    height: calc(100vh - 62px);
+    background: url('../img/pexels-andrea-davis-2873951\ -\ Copy.jpg') no-repeat center center/cover;
+}
+
+#showcase .showcase-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase .showcase-content .btn {
+    margin: 1rem 0;
 }
