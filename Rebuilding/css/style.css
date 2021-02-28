@@ -295,11 +295,17 @@ p {
     outline: none;
 }
 
+/* Contact Info */
+#contact-info {
+    display: flex;
+}
+
 /* Main Footer */
 #main-footer {
     color: #fff;
     text-align: center;
     padding: 30px;
+    background: #444;
 }
 
 #main-footer p {
